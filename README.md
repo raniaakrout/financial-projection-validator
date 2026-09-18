@@ -17,20 +17,18 @@ This system analyzes FallahTech's business plan projections (2025-2029) by cross
 ## Project Structure
 
 ```
-FallahTech_RAG_Pipline/
-├── Rag/
-│   ├── FallahTech_RAG_T2_versionFINAL.ipynb  # Main RAG pipeline
-│   └── doc_rag.pdf                            # Technical documentation
-├── data/
-│   ├── Etats_Financiers_Historiques_NCT.pdf   # Historical financials (2023-2025)
-│   ├── FallahTech_BusinessPlan_Complet.xlsx   # Projections (2025-2029)
-│   └── DataRoom_FallahTech_Professionnelle/   # Supporting documents
-│       └── DataRoom_FallahTech_PDF/
-│           ├── 1_Juridique/                   # Legal documents
-│           ├── 2_Financier/                   # Financial statements
-│           ├── 3_Operationnel/                # HR registry
-│           └── 4_Commercial/                  # Market research
-└── n8n/
+ Rag/
+    ├── FallahTech_RAG_T2_versionFINAL.ipynb  # Main RAG pipeline
+    └── doc_rag.pdf                            # Technical documentation
+data/
+   ├── Etats_Financiers_Historiques_NCT.pdf   # Historical financials (2023-2025)
+   ├── FallahTech_BusinessPlan_Complet.xlsx   # Projections (2025-2029)
+   └── DataRoom_FallahTech_Professionnelle/   # Supporting documents
+       └── DataRoom_FallahTech_PDF/
+           ├── 1_Juridique/                   # Legal documents
+           ├── 2_Financier/                   # Financial statements
+           ├── 3_Operationnel/                # HR registry│           └── 4_Commercial/                  # Market research
+n8n/
     ├── FallahTech T2 .json                    # n8n workflow export
     ├── Livrable Sujet B (T2).pdf              # Workflow documentation
     └── parsing (n8n).ipynb                    # n8n parsing notebook
